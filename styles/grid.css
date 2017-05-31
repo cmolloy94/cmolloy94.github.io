@@ -71,7 +71,13 @@ body {
 }
 
 .col-6 {
-    width: 50%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .col-6 {
+        width: 50%;
+    }
 }
 
 .col-7 {

@@ -1,7 +1,8 @@
 /* NAVIGATION */
 
-#nav {
+.nav {
     display: inline-block;
+    background: #BBDEE8;
 }
 
 nav {
@@ -182,6 +183,10 @@ h1 {
     background: #f1c40f;
 }
 
+.magento {
+    margin-top: 22px;
+}
+
 .lefttxt {
     width: 260px;
     height: 80px;
@@ -285,16 +290,16 @@ h1 {
 
 /* CONTACT */
 
-#social li:first-of-type {
+.social li:first-of-type {
     margin-left: 0;
 }
 
-#social {
+.social {
     text-align: center !important;
     margin: 0;
 }
 
-#social li:hover {
+.social li:hover {
     color: #6ca23a;
 }
 
@@ -394,7 +399,6 @@ footer {
     text-align: center;
     font-family: 'Enriqueta', serif;
 }
-
 
 /* THANK YOU PAGE */
 
